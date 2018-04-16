@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="EmojiLayout">
+        <attr name="richIndicatorFocus" format="integer|reference" />
+        <attr name="richIndicatorUnFocus" format="integer|reference" />
+        <attr name="richDeleteIconName" format="string" />
+        <attr name="richMarginBottom" format="dimension" />
+        <attr name="richMarginTop" format="dimension" />
+        <attr name="richLayoutNumColumns" format="integer|reference" />
+        <attr name="richLayoutNumRows" format="integer|reference" />
+    </declare-styleable>
+</resources>
